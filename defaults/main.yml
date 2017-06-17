@@ -1,0 +1,13 @@
+---
+common_apt_packages:
+  - htop
+  - vim
+  - less
+  - ntp
+  - ca-certificates
+  - apt-transport-https
+  - sudo
+  - unattended-upgrades
+  - apt-listchanges
+
+common_generate_dh_params: false

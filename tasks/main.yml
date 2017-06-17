@@ -1,0 +1,10 @@
+---
+- include: install-tools.yml
+  tags: [ tools ]
+
+- include: configure-tools.yml
+  tags: [ tools ]
+
+- include: generate-dh.yml
+  tags: [ dhparams ]
+  when: common_generate_dh_params
